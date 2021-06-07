@@ -1,2 +1,12 @@
-# representation-learning-basics
-Representation Learning Basics and Natural Language Processing
+<h1 align = center>Representation Learning Basics</h1>
+
+## Requirements
+- numpy
+- pandas
+- matplotlib
+- sklearn
+- re
+- string
+- nltk
+
+# Part A - Representation Learning
