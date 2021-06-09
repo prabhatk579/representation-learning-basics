@@ -24,6 +24,8 @@ Part A consists of the following topics:
 - Principle Component Analysis (PCA)
 - Linear Discriminant Analysis (LDA)
 
+Dataset Used is [Fashion MNIST Training Dataset](https://www.kaggle.com/zalando-research/fashionmnist?select=fashion-mnist_train.csv)
+
 ## Dimensionality Reduction Introduction
 
 #### 1. a) What is Dimensionality Reduction ?
