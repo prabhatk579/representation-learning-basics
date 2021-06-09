@@ -14,7 +14,7 @@
 Part A consists of the following topics:
 
 - Dimensionality Reduction Introduction
-- Missing value Ration
+- Missing value Ratio
 - Low Variance filter
 - High Correlation Filter
 - Random Forest
@@ -101,3 +101,16 @@ Forward Feature Selection is a method to reduce the dimension by following some 
 > Step - 4: We add the variable which increases the performance on addition.
 
 We continue adding variables one by one until it increase our criterion.
+
+### Singular Value Decomposition (SVD)
+SVD or Singual value decomposition is a dimensionality reduction technique which decomposes the maatrix created by the variables and features into three matrices smaller matrices.
+
+### Principal Component Analysis
+PCA or principal Component analysis is an unsupervised dimensionality reduction technique in which a principal component is a linear combination of the original variables. These Principal components are extracted in such a way that the first principal component explains maximum variance in the dataset. Second principal component tries to explain the remaining variance in the dataset and is uncorrelated to the first principal component. Third principal component tries to explain the variance which is not explained by the first two principal components and so on.
+
+It can be easily done by importing `PCA` from `skklearn.decomposition` and applying `pca.fit()` on the dataframe.
+
+### Linear Discriminant Analysis
+LDA or Linear Discriminant Analysis approach is very similar to a Principal Component Analysis, but in addition to finding the component axes that maximize the variance of our data (PCA), we are additionally finds the axes that maximize the separation between multiple classes. 
+
+We can easily apply LDA by importing `LinearDiscriminantAnalysisfrom` the library `sklearn.discriminant_analysis` and applying `sklearn_lda.fit_transform()` over the dataframe.
