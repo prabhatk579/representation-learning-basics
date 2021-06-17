@@ -9,9 +9,9 @@
 - string
 - nltk
 
-# Part A - Representation Learning
+# Part-A: Representation Learning
 
-Part A consists of the following topics:
+Part-A consists of the following topics:
 
 - Dimensionality Reduction Introduction
 - Missing value Ratio
@@ -116,3 +116,15 @@ It can be easily done by importing `PCA` from `skklearn.decomposition` and apply
 LDA or Linear Discriminant Analysis approach is very similar to a Principal Component Analysis, but in addition to finding the component axes that maximize the variance of our data (PCA), we are additionally finds the axes that maximize the separation between multiple classes. 
 
 We can easily apply LDA by importing `LinearDiscriminantAnalysisfrom` the library `sklearn.discriminant_analysis` and applying `sklearn_lda.fit_transform()` over the dataframe.
+
+# Part-B: Feature Extraction in Text
+
+Part-B consists of following topics:
+
+- Manual tokenization
+- Tokenization and Cleaning with NLTK
+- Word Counts with CountVectorizer
+- The Bag-of-Word Model
+
+
+
